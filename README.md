@@ -9,7 +9,7 @@ The folder will contain all the images organized by the year and month the photo
 
 ![Example Image Folder]()
 
-#### How to run:
+### How to run:
 
 1. Check if Python is installed
    - Run `python --version` or `py --version` in terminal
