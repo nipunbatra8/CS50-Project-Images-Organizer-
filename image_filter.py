@@ -1,12 +1,13 @@
 import os
 import shutil
 import datetime
+from pathlib import Path
 
 # Introduction
 print("Welcome to Images Folder Creater")
 
 # Find parent path
-parent_path = os.path.abspath(os.getcwd())
+parent_path = str(Path.home())
 
 # List of all file formats
 file_formats = [".jpg", ".jpeg", ".jpe", ".jif", ".jfif", ".jfi", ".png", ".gif", ".webp", ".tiff", ".tif", ".psd", ".raw", ".arw", ".cr2",
@@ -28,10 +29,9 @@ for r, d, f in os.walk(parent_path):
                 images.append(os.path.join(r, file))
                 check = True
                 break
-
-    if check == False:
-        print("No images in this folder")
-        exit()
+if check == False:
+    print("No images in this folder")
+    exit()
 
 # Create Directory
 # If directory is already there add a number to the end of it
