@@ -8,6 +8,7 @@ This program finds all the images in your computer and organizes them into a fol
 The folder will contain all the images organized by the year and month the photo file was created.
 
 **Example Image Folder that the program will create:**
+
 ![Example Image Folder](https://github.com/nipunbatra8/CS50-Project/blob/main/Example%20Folder.png)
 
 ## How to run:
