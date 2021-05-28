@@ -1,4 +1,4 @@
-# Images Organizer
+# **Images Organizer**
 ## Video Demo:  [Video](URL)
 ## Description:
 What to organize all the images in your computer?
