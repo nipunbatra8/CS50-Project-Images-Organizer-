@@ -61,18 +61,18 @@ for image in images:
         if os.path.isdir(os.path.join(path, year, month)):
 
             # Copy the images into the month dir
-            shutil.copyfile(image, os.path.join(path, year, month, os.path.basename(image)))
+            shutil.copy2(image, os.path.join(path, year, month, os.path.basename(image)))
 
         # If month dir is not there then make a month dir and copy image into there
         else:
             os.mkdir(os.path.join(path, year, month))
-            shutil.copyfile(image, os.path.join(path, year, month, os.path.basename(image)))
+            shutil.copy2(image, os.path.join(path, year, month, os.path.basename(image)))
 
     # If year dir is not there then make a year and month dir and copy image into there
     else:
         os.mkdir(os.path.join(path, year))
         os.mkdir(os.path.join(path, year, month))
-        shutil.copyfile(image, os.path.join(path, year, month, os.path.basename(image)))
+        shutil.copy2(image, os.path.join(path, year, month, os.path.basename(image)))
 
 # Tell user that "Done" and which folder all the photos where placed into
 print("Done, inserted all photos into " + path + ", categorized by the year and month")
