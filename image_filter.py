@@ -1,13 +1,12 @@
 import os
 import shutil
 import datetime
-from pathlib import Path
 
 # Introduction
-print("Welcome to Images Folder Creater")
+print("Welcome to Images Organizer")
 
 # Find parent path
-parent_path = str(Path.home())
+parent_path = os.path.expanduser("~")
 
 # List of all file formats
 file_formats = [".jpg", ".jpeg", ".jpe", ".jif", ".jfif", ".jfi", ".png", ".gif", ".webp", ".tiff", ".tif", ".psd", ".raw", ".arw", ".cr2",
