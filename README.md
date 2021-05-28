@@ -1,6 +1,6 @@
 # Images Organizer
-### Video Demo:  [Video](URL)
-### Description:
+## Video Demo:  [Video](URL)
+## Description:
 What to organize all the images in your computer?
 
 This program finds all the images in your computer and organizes them into a folder.
@@ -9,7 +9,7 @@ The folder will contain all the images organized by the year and month the photo
 
 ![Example Image Folder]()
 
-### How to run:
+## How to run:
 
 1. Check if Python is installed
    - Run `python --version` or `py --version` in terminal
