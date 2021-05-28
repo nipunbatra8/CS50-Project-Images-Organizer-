@@ -1,6 +1,6 @@
 # Images Organizer
-#### Video Demo:  [Video](URL)
-#### Description:
+### Video Demo:  [Video](URL)
+### Description:
 What to organize all the images in your computer?
 
 This program finds all the images in your computer and organizes them into a folder.
