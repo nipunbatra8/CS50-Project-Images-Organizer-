@@ -3,7 +3,7 @@
 ## Description:
 What to organize all the images in your computer?
 
-This program finds all the images in your computer and organizes them into a folder.
+This program finds all the images in your computer and copies them into a folder.
 
 The folder will contain all the images organized by the year and month the photo file was created.
 
